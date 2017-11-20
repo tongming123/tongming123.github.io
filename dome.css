@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+.head{
+	height:131px;
+	width:auto;
+	border-bottom-style:solid ;
+	border-color:red;
+}
+.head div.logo{
+	position:absolute;
+	left:50px;
+	width:720px;
+	height:110px;
+	top:10px;
+	}
+.head div.time{
+	position:absolute;
+	top:70px;
+	left:1000px;
+	}
+#welcome{
+	position:absolute;
+	top:30px;
+	font-size:40px;
+	}
+.body-picture{
+	position:relative;
+	top:5px;
+	width:1200px;
+	height:305px;
+	background-image:url(image/xiaoyuanfengjing1.jpg);
+	margin:0 auto;
+	}
+.box{
+	float:left;
+	width:15px;
+	height:15px;
+	border:#FFF solid 2px;
+	margin:10px;
+	position:relative;
+	top:270px;
+	}
+.first-main{
+		background-color:rgb(0,51,0);
+		width:1200px;
+		height:35px;
+		border-style:solid;
+		border-width:1px;
+		border-color:#999;
+		height:35px;
+		margin:0 auto;
+		}
+.first-main ul li{
+	margin-left:50px;
+	margin-top:5px;
+	list-style:none;
+	float:left;
+	width:76px;
+	height:25px
+	border:solid;
+	}
+.head-main{
+		width:1030px;
+		height:37px;
+		margin:0 auto;
+		}
+.first-main ul li a:hover {
+		text-decoration:none;
+		color:yellow;
+   		} 
+.first-main ul li a{
+		text-decoration:none;
+		position:relative；
+		top:10px;
+		color:white;
+		}
+.first-main ul li img{
+		position:relative;
+		left:-5px;
+		top:-3px;
+		}
+.first-main ul li:first-child{
+	
+		}
+.first-main ul li:last-child{
+	float:right;
+	}
+.text{
+	width:570px;
+	border-style:dotted;
+	float:left;
+	position:relative;
+	left:67px;
+	top:10px;
+		}
+.text2{
+	height:178px;
+	width:600px;
+	border-style:dotted;
+	float:right;
+	position:relative;
+	right:67px;
+	top:10px;
+		}
+</style>
