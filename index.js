@@ -8,4 +8,5 @@ window.onload=function(){
 	var time1=new Date();
 	time.innerHTML='今天是'+time1.getFullYear()+'年'+(time1.getMonth()+1)+'月'+time1.getDate()+'号'
 	+arr[time1.getDay()];
+
 }
