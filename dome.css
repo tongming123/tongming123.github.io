@@ -144,4 +144,62 @@
 	top:600px;
 	left:550px;
 	}
+.pic ul{list-style:none;}
+.pic ul li {
+	width:220px;
+	height:255px;
+	float:left;
+	margin-left:70px;
+	}
+	.pic ul li img{
+	width:220px;
+	height:255px;
+		}
+.introduce ul{list-style:none;}
+.introduce ul li{
+	transition:width 2s;
+	border-radius:25px;
+	line-height:30px;
+	float:left;
+	width:220px;
+	height:147px;
+	margin-left:69px;
+	background-color:rgb(32,199,229);
+	animation:my 5s;
+	}
+@keyframes my{
+	from{opacity:0;}
+	to{opacity:1;}
+	}
+.introduce ul li:last-child{
+	position:relative;
+	right:-4px;
+	}
+.pic2 ul{list-style:none;}
+
+.pic2 ul li img{
+	display:none;
+	width:520px;
+	height:390px;
+		}
+.pic2 ul li:first-child{
+	position:absolute;
+	top:195px;
+	left:410px;
+	}
+.pic2 ul li:last-child{
+	position:absolute;
+	top:195px;
+	left:410px;
+	}
+#first{
+	position:absolute;
+	top:195px;
+	left:696px;
+	}
+#second{
+	position:absolute;
+	top:195px;
+	left:118px;
+	}
 </style>
