@@ -135,10 +135,21 @@
 	100% {left:80px; top:0px;}
 	}
 #button{
+	border-radius:12px;
+	font-size:20px;
+	background-color:white;
 	position:absolute;
 	top:335px;
 	left:70px;
+	transition-duration:0.4s;
+	border: 2px solid #4CAF50;
+	color:black;
+	cursor: pointer;
 	}
+#button:hover {
+    background-color:#4CAF50;
+    color:white;
+}
 #LastText{
 	position:absolute;
 	top:600px;
