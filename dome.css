@@ -155,12 +155,13 @@
 	top:600px;
 	left:550px;
 	}
+
 .pic ul{list-style:none;}
 .pic ul li {
 	width:220px;
 	height:255px;
 	float:left;
-	margin-left:70px;
+	margin-left:90px;
 	}
 	.pic ul li img{
 	width:220px;
@@ -174,7 +175,7 @@
 	float:left;
 	width:220px;
 	height:147px;
-	margin-left:69px;
+	margin-left:90px;
 	background-color:rgb(32,199,229);
 	animation:my 5s;
 	}
@@ -196,7 +197,7 @@
 .pic2 ul li:first-child{
 	position:absolute;
 	top:195px;
-	left:410px;
+	left:380px;
 	}
 .pic2 ul li:last-child{
 	position:absolute;
@@ -212,5 +213,51 @@
 	position:absolute;
 	top:195px;
 	left:118px;
+	}
+li {
+	list-style:none;
+	}
+ul,p{
+	padding:0;
+	margin:0;
+	}
+.list { 
+	position:relative;
+	left:72px;
+	top:56px;
+	width:240px;
+  		}
+.list p { 
+		cursor: pointer;
+		border-radius:12px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		text-indent:20px;  
+		background:url(image/ico1.gif) no-repeat 80px center #6FF;
+		color:#000; 
+  		 }
+.list ul li { 
+			cursor: pointer;
+			text-align:center;
+			line-height:24px; 
+			text-indent:24px; 
+			background-color:rgb(255,0,255);
+			border-radius:12px;
+			margin-top:2px;
+			 }
+.list ul { display:none; }
+
+#jieshao{
+	width:750px;
+	height:300px;
+	border-radius:12px;
+	background-color:#FF9;
+	position:absolute;
+	top:230px;
+	left:400px;
+	}
+#jieshao h2{
+	text-align:center;
 	}
 </style>
