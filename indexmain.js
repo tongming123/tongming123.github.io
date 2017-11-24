@@ -1,5 +1,9 @@
 // JavaScript Document
 window.onload=function(){
+	function stop(){			//禁用右键
+	  	return false;
+	}
+	document.oncontextmenu=stop;
 	var box1=document.getElementsByClassName("box");
 	var picture=document.getElementsByClassName("body-picture")[0];
 	var time=document.getElementById("time");
