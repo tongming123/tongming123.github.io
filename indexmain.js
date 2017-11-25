@@ -1,14 +1,38 @@
 // JavaScript Document
 window.onload=function(){
+	/*function stop(){			//禁用右键
+	  	return false;
+	}
+	document.oncontextmenu=stop;*/
 	var box1=document.getElementsByClassName("box");
 	var picture=document.getElementsByClassName("body-picture")[0];
 	var time=document.getElementById("time");
 	var arr = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+	var wel = document.getElementsByClassName("wel");
+	var ali = document.getElementsByClassName("ali");
 	var i=0;
 	var timer=null;
 	
 	
+	wel[0].style.display="block";
+	ali[1].style.borderLeftColor="rgb(151,202,74)";
+	ali[1].style.borderLeftWidth="3px";
+	for(var t=1;t<ali.length;t++){
+		ali[t].index=t;
+		ali[t].onclick=function(){
+			for(var a=1;a<ali.length;a++){
+				ali[a].style.borderLeftColor="";
+				ali[a].style.borderLeftWidth="";
+				}
+			for(var a=0;a<wel.length;a++){
+				wel[a].style.display="none";
+				}
+			wel[this.index-1].style.display="block";
+			ali[this.index].style.borderLeftColor="rgb(151,202,74)";
+			ali[this.index].style.borderLeftWidth="3px";
+			}
 	
+	}
 	
 	//轮播图
 	doit();

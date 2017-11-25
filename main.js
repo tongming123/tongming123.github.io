@@ -1,5 +1,9 @@
 // JavaScript Document
 window.onload=function(){
+	function stop(){			//禁用右键
+	  	return false;
+	}
+	document.oncontextmenu=stop;
 	var time=document.getElementById("time");
 	var arr = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
 	var oUl = document.getElementsByClassName("list")[0];
@@ -42,7 +46,6 @@ window.onload=function(){
 				aUl[t].style.display="none";
 				}
 			aUl[this.index].style.display="block";
-			boo=false;
 			}
 	}
 	for(var i=0;i<oli.length;i++){
@@ -53,6 +56,7 @@ window.onload=function(){
 				}
 			oli[this.index].style.backgroundColor="#09F";
 			op.innerHTML='&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+liArr[this.index];
+			
 		}
 		}
 }
