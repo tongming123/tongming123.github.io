@@ -1,9 +1,16 @@
 // JavaScript Document
 window.onload=function(){
+<<<<<<< HEAD
 	/*function stop(){			//禁用右键
 	  	return false;
 	}
 	document.oncontextmenu=stop;*/
+=======
+	function stop(){			//禁用右键
+	  	return false;
+	}
+	document.oncontextmenu=stop;
+>>>>>>> origin/master
 	var box1=document.getElementsByClassName("box");
 	var picture=document.getElementsByClassName("body-picture")[0];
 	var time=document.getElementById("time");
